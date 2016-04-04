@@ -61,7 +61,7 @@ libraries in OCaml. There are also a list of todo.
 ## Mobile development
 
 - [Cordova plugins](https://cordova.apache.org/)
-	Cordova allows you to develop hybrid mobile applications using web technologies. Through plugins, you can access to devices features.
+	Cordova allows you to develop hybrid mobile applications using web technologies. Through plugins, you can access to devices components.
 	* [Bindings to cordova plugins](https://github.com/dannywillems/ocaml-cordova-plugin-list) with js_of_ocaml and gen_js_api.
 
 # *Pure* OCaml web frameworks/libraries
