@@ -83,6 +83,15 @@ Tools to simplify bindings:
 
 * [Typescript](http://www.typescriptlang.org/) aims to develop a typed javascript. [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) contains a lot of bindings to popular javascript libraries. It would be useful to have a compiler ocaml to typescript and use this repository as reference.
 
+* Bindings to popular javascript frameworks
+  - Angularjs
+  - Backbone.js
+  - Ember.js
+  - JQueryUI
+  - Babylon
+  - Karma
+  - Phantom JS
+
 ## HTML/CSS
 
 * Think about typed CSS with OCaml.
@@ -100,3 +109,5 @@ Tools to simplify bindings:
 * Integration with popular text editors/IDE.
 
 * A package manager such as [npm](https://www.npmjs.com/).
+
+* Task runners such as Gulp/Grunt
