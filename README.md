@@ -74,7 +74,7 @@ Tools to simplify bindings:
 
 * Create typed bindings to CSS frameworks such as [bootstrap](http://getbootstrap.com/), [MaterializeCSS](http://materializecss.com/).
 
-* Functions to create style buttons using popular CSS libraries --> Simplify HTML5 pages builds.
+* Functions to create style HTML elements such as buttons, containers, rows, etc using popular CSS libraries --> Simplify HTML5 pages builds.
 
 ## Hybrid mobile programming
 
