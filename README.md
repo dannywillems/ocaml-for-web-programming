@@ -72,8 +72,8 @@ libraries in OCaml. There are also a list of todo.
 # Running OCaml program in browsers
 
 OCaml to javascript compilers:
-* [js_of_ocaml](https://ocsigen.org/js_of_ocaml)
-* [Bucklescript](https://github.com/bloomberg/bucklescript)
+* [Ocsigen js_of_ocaml](https://ocsigen.org/js_of_ocaml)
+* [Bloomberg Bucklescript](https://github.com/bloomberg/bucklescript)
 
 Tools to simplify bindings:
 * [gen_js_api](https://github.com/lexifi/gen_js_api)
