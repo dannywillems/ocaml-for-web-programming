@@ -1,7 +1,7 @@
 Ocaml for web programming
 =========================
 
-This repository aims to reference existings web programming tools, frameworks and
+This repository aims to reference existing web programming tools, frameworks and
 libraries in OCaml. There are also a list of todo.
 
 * [Ocaml for web programming](#ocaml-for-web-programming)
