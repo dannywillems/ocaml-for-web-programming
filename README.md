@@ -64,21 +64,6 @@ libraries in OCaml. There are also a list of todo.
   Cordova allows you to develop hybrid mobile applications using web technologies. Through plugins, you can access to devices components.
   - [Bindings to cordova plugins](https://github.com/dannywillems/ocaml-cordova-plugin-list) with js_of_ocaml and gen_js_api.
 
-# *Pure* OCaml web frameworks/libraries
-
-* [Ocsigen](https://ocsigen.org): The Ocsigen project is aimed at proposing clean and safe tools for developing and running client/server web 2.0 applications. It contains many subprojects.
-  - Ocsigen Js_of_ocaml: A compiler from OCaml to JavaScript
-  - Ocsigen Tyxml: Library to build statically correct Html and Svg
-  - Ocsigen Eliom:
-    -- Server side page generation (and continuation based Web programming)
-    -- Language extension for client-server Web application in OCaml
-    -- Session manipulation
-    -- Reactive Web pages
-    -- Mobile applications in OCaml with Apache Cordova
-  - Ocsigen Toolkit: Native OCaml widgets for client or client-server Web applications
-  - Ocsigen Eliom base app: High level library and application template with user management, notifications, mobile app (work in progress)
-  - Ocsigen Server: Modular Web server (using cohttp or its own http library) with https, access control, authentication, user configuration files, reverse proxy, CGI scripts, etc.
-
 # Running OCaml program in browsers
 
 OCaml to javascript compilers:
@@ -87,6 +72,40 @@ OCaml to javascript compilers:
 
 Tools to simplify bindings:
 * [gen_js_api](https://github.com/lexifi/gen_js_api)
+
+# *Pure* OCaml web frameworks/libraries
+
+## Typed HTML/CSS
+
+* [Ocsigen Tyxml](http://ocsigen.org/tyxml/): Library to build statically correct Html and Svg
+
+## Server and client side
+
+* [Ocsigen Eliom](http://ocsigen.org/eliom/):
+  - Server side page generation (and continuation based Web programming)
+  - Language extension for client-server Web application in OCaml
+  - Session manipulation
+  - Reactive Web pages
+  - Mobile applications in OCaml with Apache Cordova
+
+* [Ocsigen Toolkit](http://ocsigen.org/ocsigen-widgets/): Native OCaml widgets for client or client-server Web applications
+
+## Web servers
+
+* [Ocsigen Server](http://ocsigen.org/ocsigenserver/): Modular Web server (using cohttp or its own http library) with https, access control, authentication, user configuration files, reverse proxy, CGI scripts, etc.
+
+## Client side
+
+## Mobile development
+
+* [Ocsigen Eliom](http://ocsigen.org/eliom/):
+  - Server side page generation (and continuation based Web programming)
+  - Language extension for client-server Web application in OCaml
+  - Session manipulation
+  - Reactive Web pages
+  - Mobile applications in OCaml with Apache Cordova
+
+* [Ocsigen Eliom base app](http://ocsigen.org/eliom-base-app/): High level library and application template with user management, notifications, mobile app (work in progress)
 
 # To-do
 
@@ -109,7 +128,23 @@ Tools to simplify bindings:
 
 * Create typed bindings to CSS frameworks such as [bootstrap](http://getbootstrap.com/), [MaterializeCSS](http://materializecss.com/).
 
-* Functions to create style HTML elements such as buttons, containers, rows, etc using popular CSS libraries --> Simplify HTML5 pages builds.
+* Functions to create style HTML elements such as buttons, containers, rows, etc using popular CSS libraries --> Simplify HTML5 pages builds. We can imagine to have a module for each popular CSS libraries. For example, we can have with bootstrap
+```OCaml
+module B = Bootstrap_css
+B.create_container (B.create_row (B.create_col 4 ~lg:3 ~md:6 ~xs:12))
+```
+giving as output
+```HTML
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-xs-12"></div>
+    <div class="col-lg-3 col-md-6 col-xs-12"></div>
+    <div class="col-lg-3 col-md-6 col-xs-12"></div>
+    <div class="col-lg-3 col-md-6 col-xs-12"></div>
+  </div>
+</div>
+```
+Use Tyxml ?
 
 ## Hybrid mobile programming
 
