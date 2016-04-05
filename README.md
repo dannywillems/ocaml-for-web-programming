@@ -4,17 +4,22 @@ Ocaml for web programming
 This repository aims to reference existings web programming tools, frameworks and
 libraries in OCaml. There are also a list of todo.
 
-  * [Ocaml for web programming](#ocaml-for-web-programming)
-  * [Bindings](#bindings)
-    * [Javascript libraries/frameworks](#javascript-librariesframeworks)
-    * [Mobile development](#mobile-development)
-  * [<em>Pure</em> OCaml web frameworks/libraries](#pure-ocaml-web-frameworkslibraries)
-  * [Tools to create bindings](#tools-to-create-bindings)
-  * [To-do](#to-do)
-    * [Typescript/Javascript](#typescriptjavascript)
-    * [HTML/CSS](#htmlcss)
-    * [Hybrid mobile programming](#hybrid-mobile-programming)
-    * [Tools](#tools)
+* [Ocaml for web programming](#ocaml-for-web-programming)
+* [Bindings](#bindings)
+  * [Javascript libraries/frameworks](#javascript-librariesframeworks)
+  * [Mobile development](#mobile-development)
+* [Running OCaml program in browsers](#running-ocaml-program-in-browsers)
+* [<em>Pure</em> OCaml web frameworks/libraries](#pure-ocaml-web-frameworkslibraries)
+  * [Typed HTML/CSS](#typed-htmlcss)
+  * [Server and client side](#server-and-client-side)
+  * [Web servers](#web-servers)
+  * [Client side](#client-side)
+  * [Mobile development](#mobile-development-1)
+* [To-do](#to-do)
+  * [Typescript/Javascript](#typescriptjavascript)
+  * [HTML/CSS](#htmlcss)
+  * [Hybrid mobile programming](#hybrid-mobile-programming)
+  * [Tools](#tools)
 
 # Bindings
 
