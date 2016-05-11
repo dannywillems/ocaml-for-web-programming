@@ -127,6 +127,8 @@ Tools to simplify bindings:
   - Karma
   - Phantom JS
 
+* Bindings to node packages. Can be interesting to have a website such as the official website for node packages ([here](https://www.npmjs.com/)) with the bindings.
+
 ## HTML/CSS
 
 * Think about typed CSS with OCaml.
@@ -154,6 +156,9 @@ Use Tyxml ?
 ## Hybrid mobile programming
 
 * [Ionic](https://ionic.io/) allows to develop hybrid mobile applications with a native apparence using web technologies. There are [ionic plugins](https://market.ionic.io/plugins) written in Javascript (different than cordova plugins).
+
+* [NativeScript](https://www.nativescript.org/): build truly mobile applications
+  with web technologies.
 
 ## Tools
 
