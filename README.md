@@ -116,7 +116,7 @@ Tools to simplify bindings:
 
 ## Typescript/Javascript
 
-* [Typescript](http://www.typescriptlang.org/) aims to develop a typed javascript. [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) contains a lot of bindings to popular javascript libraries. It would be useful to have a compiler ocaml to typescript and use this repository as reference.
+* [Typescript](http://www.typescriptlang.org/) aims to develop a typed javascript. [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) contains a lot of bindings to popular javascript libraries. It would be useful to have a compiler OCaml to typescript and use this repository as reference.
 
 * Bindings to popular javascript frameworks
   - Angularjs
