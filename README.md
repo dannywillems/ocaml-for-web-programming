@@ -63,6 +63,9 @@ libraries in OCaml. There are also a list of todo.
 * [electron](https://github.com/atom/electron)
   - Binding in js_of_ocaml: [ocaml-electron](https://github.com/fxfactorial/ocaml-electron)
 
+* [Google Maps](https://developers.google.com/maps/documentation/javascript/3.exp/reference?hl=fr)
+  - Binding with gen_js_api: [ocaml-googlemap](https://github.com/besport/ocaml-googlemap)
+
 ## Mobile development
 
 * [Cordova plugins](https://cordova.apache.org/)
